@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Ketelmeester</title>
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <script src="./assets/scripts/index.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo.png" type="image/svg+xml" />
+
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo"><img src="./assets/logo.svg" width="100px" height="100px" alt="Logo" /></div>
+
+      <nav class="nav-links" id="navMenu">
+        <ul>
+          <li><a href="#">Over ons</a></li>
+          <li><a href="#">Contact & Service</a></li>
+
+          <li class="dropdown mobile-dropdown">
+            <a href="#" class="mobile-dropdown-toggle" id="hasis">Regio's ▾</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Amsterdam</a></li>
+              <li><a href="#">Almere</a></li>
+              <li><a href="#">Amersfoort</a></li>
+              <li><a href="#">Den Haag</a></li>
+              <li><a href="#">Hilversum</a></li>
+              <li><a href="#">Haarlem</a></li>
+              <li><a href="#">Leiden</a></li>
+              <li><a href="#">Rotterdam</a></li>
+              <li><a href="#">Utrecht</a></li>
+              <li><a href="#">Wassenaar</a></li>
+              <li><a href="#">Zaanstad</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="cta-buttons">
+        <a href="tel:085 0000000" class="offerte-knop">📞 085 0000000</a>
+        <a href="tel:085 0000000" class="offerte-knop">OFFERTE AANVRAAG</a>
+      </div>
+
+      <div class="hamburger" style="color:white;" id="hamburger">&#9776;</div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-mobile" id="closeMobile">&times;</div>
+      <ul>
+        <li><a href="#">Over ons</a></li>
+        <li><a href="#">Contact & Service</a></li>
+        <li class="dropdown">
+          <a href="#" id="target">Regio's ▾</a>
+          <ul class="dropdown-menu-ham" id="maks">
+            <li><a href="#">Amsterdam</a></li>
+            <li><a href="#">Almere</a></li>
+            <li><a href="#">Amersfoort</a></li>
+            <li><a href="#">Den Haag</a></li>
+            <li><a href="#">Hilversum</a></li>
+            <li><a href="#">Haarlem</a></li>
+            <li><a href="#">Leiden</a></li>
+            <li><a href="#">Rotterdam</a></li>
+            <li><a href="#">Utrecht</a></li>
+            <li><a href="#">Wassenaar</a></li>
+            <li><a href="#">Zaanstad</a></li>
+          </ul>
+        </li>
+
+        <li><a class="bel-knop" width href="tel:085 0000000">📞 085 0000000</a></li>
+        <li><a class="offerte-knop" href="tel:085 0000000">OFFERTE AANVRAAG</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Ketelmeester</h1>
+      <p>Voor al uw loodgieters werkzaamheden</p>
+      <span class="subtext">LEKKAGE OF VERSTOPPING? BEL ONZE 24/7 NOODDIENST</span>
+      <h2 class="big-number">085 0000000</h2>
+      <a href="#" class="bel-knop">PLAN DIRECT EEN AFSPRAAK</a>
+      <div class="trustpilot">
+        <img src="./trustpilot-logo.png" alt="Google Reviews" />
+        <span>433+ reviews</span>
+        <img src="./google-reviews.png" alt="Trustpilot" />
+        <span>276+ reviews</span>
+      </div>
+    </div>
+  </section>
+  
+  <div class="cards">
+  <section class="services-section">
+  <div class="cards-container">
+    <!-- Card 1 -->
+    <div class="service-card">
+      <div class="card-image">
+        <img src="./img.png" alt="Lekkage">
+        <div class="card-icon">
+          <img src="./lekkage.svg" alt="Icon">
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>LEKKAGE</h3>
+        <p>Bij Ketelmeester verzorgen we het gehele traject van A tot Z.</p>
+        <a href="#" class="card-button">LEES VERDER →</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="service-card highlight">
+      <div class="card-image">
+        <img src="./img.png" alt="Rioolproblemen">
+        <div class="card-icon">
+          <img src="./riool.svg" alt="Icon">
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>RIOOLPROBLEMEN</h3>
+        <p>Is uw afvoer of wc verstopt? Neem dan contact met ons op.</p>
+        <a href="#" class="card-button">LEES VERDER →</a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="service-card">
+      <div class="card-image">
+        <img src="./img.png" alt="Service">
+        <div class="card-icon">
+          <img src="./plumber.svg" alt="Icon">
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>SERVICE & ONDERHOUD</h3>
+        <p>Ook bij een storing of onderhoud kunt u rekenen op Ketelmeester.</p>
+        <a href="#" class="card-button">LEES VERDER →</a>
+      </div>
+    </div>
+  </div>
+
+<div class="card-checks">
+  <div class="check-item">
+    <img src="./calendar-days-solid.svg" alt="24/7 bereikbaar">
+    <span>24/7 bereikbaar, 7 dagen per week</span>
+  </div>
+  <div class="check-item">
+    <img src="./wrench-solid.svg" alt="30 jaar ervaring">
+    <span>Meer dan 30+ jaar ervaring</span>
+  </div>
+  <div class="check-item">
+    <img src="./circle-check-regular.svg" alt="VCA gecertificeerd">
+    <span>VCA-gecertificeerde monteurs</span>
+  </div>
+</div>
+
+
+  
+</section>
+</div>
+
+<div class="brands-section">
+  <img src="./Nefit.png" alt="Nefit">
+  <img src="./Remeha.png" alt="Remeha">
+  <img src="./honeywell.png" alt="Honeywell">
+  <img src="./inventum.png" alt="Inventum">
+  <img src="./ATAG.png" alt="ATAG">
+  <img src="./vaillant.png" alt="Vaillant">
+</div>
+
+ <footer class="footer">
+  <!-- Offerte blok bovenaan -->
+  <div class="offerte-boven">
+    <h1>Vraag een vrijblijvende offerte aan</h2>
+    <a class="offerte-knop" href="tel:085 0000000">OFFERTE AANVRAAG</a>
+  </div>
+
+  <!-- Categorieën -->
+  <div class="footer-container">
+    
+    <!-- Contact -->
+    <div class="footer-box">
+      <h3>Contact 24/7</h3>
+      <ul>
+        <li><a href="tel:085 0000000">085 0000000</a></li>
+        <li><a href="mailto:info@ketelmeester.nl">info@ketelmeester.nl</a></li>
+      </ul>
+    </div>
+
+    <!-- Onze Diensten -->
+    <div class="footer-box">
+      <h3>Onze Diensten</h3>
+      <ul>
+        <li><a href="#">Riool Ontstoppen</a></li>
+        <li><a href="#">Lekkage</a></li>
+        <li><a href="#">Dak Lekkage</a></li>
+        <li><a href="#">Lekkdetectie</a></li>
+        <li><a href="#">Rioolinspectie</a></li>
+        <li><a href="#">CV-Ketel reparatie</a></li>
+      </ul>
+    </div>
+
+    <!-- Kennisbank -->
+    <div class="footer-box">
+      <h3>Kennisbank</h3>
+      <ul>
+        <li><a href="#">Wat mag er NIET in het riool?</a></li>
+        <li><a href="#">Zo ontstoppen we jouw riool</a></li>
+        <li><a href="#">Algemene voorwaarden</a></li>
+        <li><a href="#">Privacybeleid</a></li>
+        <li><a href="#">Klachtenformulier</a></li>
+      </ul>
+    </div>
+
+    <!-- Erkend vakmanschap -->
+    <div class="footer-box">
+      <h3>Erkend Vakmanschap</h3>
+      <ul>
+        <li><a href="#">NEN 1010</a></li>
+        <li><a href="#">VCA</a></li>
+        <li><a href="#">NEN 3140</a></li>
+        <li><img src="./google-reviews.png" width="100px" alt="Trustpilot" /></li>
+        <li><img src="./trustpilot-logo.png" width="100px" alt="Google Reviews" /></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Onderste lijn -->
+  <div class="footer-bottom">
+    © 2025 Ridskoo. Alle rechten voorbehouden.
+  </div>
+</footer>
+
+
+</body>
+
+</html>
